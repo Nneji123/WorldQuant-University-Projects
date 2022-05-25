@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# WorldQuant-University-Projects
+![quant](https://user-images.githubusercontent.com/101701760/168424721-2ab686b1-51cf-4fb3-9bc1-7ad26828f937.png)
 
-You can use the [editor on GitHub](https://github.com/Nneji123/WorldQuant-University-Projects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A repository containing all the projects that were carried out during my Applied Data Science course learning at WorldQuant University.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## The Projects
+1. Predicting House Prices in Mexico
+2. Predicting Apartment Prices in Bueno Aires 
+3. Predicting Air Quality in Nairobi
+4. Predicting Earthquake Damage in Nepal
+5. Predicting Bankruptcy in Poland
 
-### Markdown
+### Predicting House Prices in Brazil
+In this assignment, you'll work with a dataset of homes for sale in Brazil. Your goal is to determine if there are regional differences in the real estate market. Also, you will look at southern Brazil to see if there is a relationship between home size and price, similar to what you saw with housing in some states in Mexico.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Predicting Apartment Prices in Mexico City
+This was similar to the first project but we had to create a wrangle function that could do the following:
+1. Subset the data in the CSV file and return only apartments in Mexico City ("Distrito Federal") that cost less than $100,000.
+2. Remove outliers by trimming the bottom and top 10% of properties in terms of "surface_covered_in_m2".
+3. Create separate "lat" and "lon" columns.
+4. Mexico City is divided into 16 boroughs. Create a "borough" feature from the "place_with_parent_names" column.
+5. Drop columns that are more than 50% null values.
+6. Drop columns containing low- or high-cardinality categorical values.
+7. Drop any columns that would constitute leakage for the target "price_aprox_usd".
+8. Drop any columns that would create issues of multicollinearity.
 
-```markdown
-Syntax highlighted code block
+### Predicting Air Quality in Nairobi
+In this project we used a database server(MongoDB) and also predicted air quality in Nairobi Kenya for particular times.
 
-# Header 1
-## Header 2
-### Header 3
+### Earthquake Damage in Kavrepalanchok
+In this assignment, we built a classification model to predict building damage for the district of Kavrepalanchok.
 
-- Bulleted
-- List
+### Algorithms 
+1. Linear Regression
+2. Logistic Regression
+3. Random Forest
+4. Decision Trees
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nneji123/WorldQuant-University-Projects/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
